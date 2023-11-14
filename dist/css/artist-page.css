@@ -1,0 +1,10 @@
+.artist-image {
+  background-image: url(/dist/images/Artistpagebg.png);
+  width: 100%;
+  height: 320px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.artist-profil-foto {
+  border: 2px solid black; }

@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/dist/css/main.css">
+    <link rel="shortcut icon" href="/dist/images/nft-Favicon.png" type="image/x-icon" />
+    
+    <title>Nft-Market</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
+  <div class="container-fluid main-bg nav-container py-sm-4 px-sm-5 px-3 py-2">
+    <a class="me-auto navbar-brand p-0" href="index.html">
+        <img src="/dist/images/desktop-logo.png" alt="Nft-Logo" class="d-none d-md-block">
+        <img src="/dist/images/mobile-logo.png" alt="Nft-Logo" class="img-fluid d-md-none">
+    </a>
+    <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="">
+        <img src="/dist/icons/Burger Menu.svg" alt="">
+      </span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page" href="market-place.html">Marketplace</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="rankings.html">Rankings</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="connect-wallet.html">Connect a wallet</a>
+        </li> 
+      </ul>
+      <a class="text-decoration-none d-inline-block scale-95" href="create-account.html">
+        <div href="create-account.html" class="text-white d-flex align-items-center nav-button button-style gap-3" type="submit">
+          <img src="/dist/icons/User.svg" alt="user svg">
+          Sign Up
+        </div>
+      </a>
+    </div>
+  </div>
+</nav>
+<main>
+    <div class="container-fluid p-0 main-bg">
+        <div class="container container-sm my-container-height">
+          <div class="row ">
+            <div class="col-6 d-none d-sm-block">
+              <div class="homepage-title-text d-flex flex-column gap-4">
+                <h1 class="homepage-title m-0">Discover digital art & Collect Nfts</h1>
+                <p class="homepage-text m-0">Nft Marketplace Ui Created With Anima For Figma. Collect, Buy And Sell Art From More Than 20k Nft Artists.</p>
+              </div>
+              <a class="text-decoration-none d-inline-block scale-95" href="create-account.html">
+                <div class="button-style d-inline d-flex align-items-center gap-2 get_started_button">
+                  <img src="/dist/icons/RocketLaunch.svg" alt="RocketLaunch">
+                  Get Started
+                </div>
+              </a>
+              <div class="status-container d-flex gap-5">
+                <div class="status-item">
+                  <h4 class="status-title m-0">240k+</h4>
+                  <p class="status-text">Total Sale</p>
+                </div>
+                <div class="status-item">
+                  <h4 class="status-title m-0">100k+</h4>
+                  <p class="status-text">Auctions</p>
+                </div>
+                <div class="status-item">
+                  <h4 class="status-title m-0">240k+</h4>
+                  <p class="status-text">Artists</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6  d-none d-sm-block">
+              <img class="homepage-gif" src="/dist/images/heroanimationtransparentbck-2.gif" alt="">
+            </div>
+          </div>
+          <div class="row d-block d-sm-none">
+            <div class="col p-0 d-flex flex-column gap-4">
+              <div class="homepage-title-text d-flex flex-column gap-2">
+                <h1 class="homepage-title m-0">Discover digital art & Collect Nfts</h1>
+                <p class="homepage-text m-0">NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.</p>
+              </div>
+              <img class="homepage-gif" src="/dist/images/heroanimationtransparentbck-2.gif" alt="">
+              <a class="text-decoration-none d-inline-block scale-95" href="create-account.html">
+                <div class="button-style d-inline d-flex align-items-center gap-2 justify-content-center get_started_button">
+                  <img src="/dist/icons/RocketLaunch.svg" alt="RocketLaunch">
+                  Get Started
+                </div>
+              </a>
+              <div class="status-container d-flex gap-5">
+                <div class="status-item">
+                  <h4 class="status-title m-0">240k+</h4>
+                  <p class="status-text">Total Sale</p>
+                </div>
+                <div class="status-item">
+                  <h4 class="status-title m-0">100k+</h4>
+                  <p class="status-text">Auctions</p>
+                </div>
+                <div class="status-item">
+                  <h4 class="status-title m-0">240k+</h4>
+                  <p class="status-text">Artists</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</main>
+<section class="main-bg my-container-height ">
+  <div class="container container-sm p-0 ">
+    <header>
+      <h3 class="fellow-title">Trending Collection</h3>
+      <p class="fellow-text">Checkout our weekly updated trending collection.</p>
+    </header>
+    <div class="card-group-container d-flex gap-4">
+      <div class="card-group d-flex flex-column gap-3">
+        <a href="artist-page.html">
+          <div class="card-big-pic scale-95 ">
+            <img src="/dist/images/Primary Photo Placeholder.png" alt="köpkeli görsel">
+          </div>
+        </a>
+        <div class="card-third-pic d-flex gap-3">
+          <a href="artist-page.html">
+            <img class="scale-95" src="/dist/images/Secondary Photo Placeholder.png" alt="keddy">
+          </a>
+          <a href="artist-page.html">
+            <img class="scale-95" src="/dist/images/Secondary Photo Placeholder2.png" alt="ayu">
+          </a>
+          <a class="text-decoration-none" href="artist-page.html">
+            <div class="card-third-pic-text button-style scale-95">1025+</div>
+          </a>
+        </div>
+        <div class="card-group-text">
+          <h5 class="text-white main-font">Dsgn Animals</h5>
+          <p class="d-flex gap-2 text-white main-font">
+            <img src="/dist/images/Avatar Placeholder.png" alt="profil resmi">
+            MrFox
+          </p>
+        </div>
+      </div>
+      <div class="d-none d-sm-block">
+        <div class="card-group d-flex flex-column gap-3 ">
+          <a href="artist-page.html">
+            <div class="card-big-pic scale-95">
+              <img src="/dist/images/Primary Photo Placeholder2.png" alt="köpkeli görsel">
+            </div>
+          </a>
+          <div class="card-third-pic d-flex gap-3">
+            <a href="artist-page.html">
+              <img class="scale-95" src="/dist/images/Mushroom.png" alt="keddy">
+            </a>
+            <a href="artist-page.html">
+              <img class="scale-95" src="/dist/images/Mushroom2.png" alt="ayu">
+            </a>
+            <a class="text-decoration-none" href="artist-page.html">
+              <div class="card-third-pic-text button-style scale-95">1025+</div>
+            </a>
+          </div>
+          <div class="card-group-text">
+            <h5 class="text-white main-font">Magic Mushrooms</h5>
+            <p class="d-flex gap-2 text-white main-font">
+              <img src="/dist/images/Avatar Placeholder2.png" alt="profil resmi">
+              Shroomie
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="d-none d-sm-block">
+        <div class="card-group d-flex flex-column gap-3">
+          <a href="artist-page.html">
+            <div class="card-big-pic scale-95">
+              <img src="/dist/images/Primary Photo Placeholder3.png" alt="köpkeli görsel">
+            </div>
+          </a>
+          <div class="card-third-pic d-flex gap-3">
+            <a href="artist-page.html">
+              <img class="scale-95" src="/dist/images/man.png" alt="keddy">
+            </a>
+            <a href="artist-page.html">
+              <img class="scale-95" src="/dist/images/man2.png" alt="ayu">
+            </a>
+            <a class="text-decoration-none" href="artist-page.html">
+              <div class="card-third-pic-text button-style scale-95">1025+</div>
+            </a>
+          </div>
+          <div class="card-group-text">
+            <h5 class="text-white main-font">Disco Machines</h5>
+            <p class="d-flex gap-2 text-white main-font">
+              <img src="/dist/images/Avatar Placeholder3.png" alt="profil resmi">
+              BeKind2Robots
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="main-bg my-container-height">
+  <div class="container container-sm p-0">
+    <div class="top-creators-container d-flex justify-content-between ">
+      <div class="top-creators-text">
+        <h3 class="fellow-title">Top creators</h3>
+        <p class="fellow-text d-inline">Checkout Top Rated Creators on the NFT Marketplace</p>
+      </div>
+      <div class="top-creators-button align-self-end ">
+        <a class="text-decoration-none d-none d-sm-block" href="rankings.html">  
+          <div class="outline-main scale-95">
+            <img src="/dist/icons/RocketLaunchPurple.svg" alt="">
+            View Rankings
+          </div>
+        </a> 
+      </div>
+    </div>
+    <div class="row gy-4 mt-3">
+      <div class="col-12 col-sm-3">
+        <a class="text-decoration-none" href="artist-page.html">
+          <div class="top-creators-card position-relative scale-95">
+            <div class="score-div">1</div>
+            <img src="/dist/images/profilFoto/turuncuKadin.png" alt="">
+            <div class="top-creators-card-text">
+              <h5 class="text-start text-sm-center main-font text-white m-0">Keepitreal</h5>
+              <p class="m-0 text-white secondary-font">
+                <span class="text-caption main-font">Total Sales:</span>
+                34.53 ETH
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-12 col-sm-3">
+        <a class="text-decoration-none" href="artist-page.html">
+          <div class="top-creators-card position-relative scale-95">
+            <div class="score-div">2</div>
+            <img src="/dist/images/profilFoto/ClarkKent.png" alt="">
+            <div class="top-creators-card-text">
+              <h5 class="text-start text-sm-center main-font text-white m-0">DigiLab</h5>
+              <p class="m-0 text-white secondary-font">
+                <span class="text-caption main-font">Total Sales:</span>
+                34.53 ETH
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-12 col-sm-3">
+        <a class="text-decoration-none" href="artist-page.html">
+          <div class="top-creators-card position-relative scale-95">
+            <div class="score-div">3</div>
+            <img src="/dist/images/profilFoto/KillbillGibi.png" alt="">
+            <div class="top-creators-card-text">
+              <h5 class="text-start text-sm-center main-font text-white m-0">GravityOne</h5>
+              <p class="m-0 text-white secondary-font">
+                <span class="text-caption main-font">Total Sales:</span>
+                34.53 ETH
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-12 col-sm-3">
+        <a class="text-decoration-none" href="artist-page.html">
+          <div class="top-creators-card position-relative scale-95">
+            <div class="score-div">4</div>
+            <img src="/dist/images/profilFoto/randomAsian.png" alt="">
+            <div class="top-creators-card-text">
+              <h5 class="text-start text-sm-center main-font text-white m-0">Juanie</h5>
+              <p class="m-0 text-white secondary-font">
+                <span class="text-caption main-font">Total Sales:</span>
+                34.53 ETH
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    
+
+    
+      <div class="col-12 col-sm-3">
+        <a class="text-decoration-none" href="artist-page.html">
+          <div class="top-creators-card position-relative scale-95">
+            <div class="score-div">5</div>
+            <img src="/dist/images/profilFoto/neoButAvatar.png" alt="">
+            <div class="top-creators-card-text">
+              <h5 class="text-start text-sm-center main-font text-white m-0">BlueWhale</h5>
+              <p class="m-0 text-white secondary-font">
+                <span class="text-caption main-font">Total Sales:</span>
+                34.53 ETH
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-12 col-sm-3 d-none d-sm-block d-none d-sm-block">
+        <a class="text-decoration-none" href="artist-page.html">
+          <div class="top-creators-card position-relative scale-95">
+            <div class="score-div">6</div>
+            <img src="/dist/images/profilFoto/orangeCat.png" alt="">
+            <div class="top-creators-card-text">
+              <h5 class="text-start text-sm-center main-font text-white m-0">Mr Fox</h5>
+              <p class="m-0 text-white secondary-font">
+                <span class="text-caption main-font">Total Sales:</span>
+                34.53 ETH
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-12 col-sm-3 d-none d-sm-block">
+        <a class="text-decoration-none" href="artist-page.html">
+          <div class="top-creators-card position-relative scale-95">
+            <div class="score-div">7</div>
+            <img src="/dist/images/profilFoto/suBukucu.png" alt="">
+            <div class="top-creators-card-text">
+              <h5 class="text-start text-sm-center main-font text-white m-0">Shroomie</h5>
+              <p class="m-0 text-white secondary-font">
+                <span class="text-caption main-font">Total Sales:</span>
+                34.53 ETH
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-12 col-sm-3 d-none d-sm-block">
+        <a class="text-decoration-none" href="artist-page.html">
+          <div class="top-creators-card position-relative scale-95">
+            <div class="score-div">8</div>
+            <img src="/dist/images/profilFoto/faxMakinesi.png" alt="">
+            <div class="top-creators-card-text">
+              <h5 class="text-start text-sm-center main-font text-white m-0">Robotica</h5>
+              <p class="m-0 text-white secondary-font">
+                <span class="text-caption main-font">Total Sales:</span>
+                34.53 ETH
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    
+
+      <div class="col-12 col-sm-3 d-none d-sm-block">
+        <a class="text-decoration-none" href="artist-page.html">
+          <div class="top-creators-card position-relative scale-95">
+            <div class="score-div">9</div>
+            <img src="/dist/images/profilFoto/bonomoButRobot.png" alt="">
+            <div class="top-creators-card-text">
+              <h5 class="text-start text-sm-center main-font text-white m-0">RustyRobot</h5>
+              <p class="m-0 text-white secondary-font">
+                <span class="text-caption main-font">Total Sales:</span>
+                34.53 ETH
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-12 col-sm-3 d-none d-sm-block">
+        <a class="text-decoration-none" href="artist-page.html">
+          <div class="top-creators-card position-relative scale-95">
+            <div class="score-div">10</div>
+            <img src="/dist/images/profilFoto/hayki.png" alt="">
+            <div class="top-creators-card-text">
+              <h5 class="text-start text-sm-center main-font text-white m-0">Animakid</h5>
+              <p class="m-0 text-white secondary-font">
+                <span class="text-caption main-font">Total Sales:</span>
+                34.53 ETH
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-12 col-sm-3 d-none d-sm-block">
+        <a class="text-decoration-none" href="artist-page.html">
+          <div class="top-creators-card position-relative scale-95">
+            <div class="score-div">11</div>
+            <img src="/dist/images/profilFoto/kadimAgac.png" alt="">
+            <div class="top-creators-card-text">
+              <h5 class="text-start text-sm-center main-font text-white m-0">Dotgu</h5>
+              <p class="m-0 text-white secondary-font">
+                <span class="text-caption main-font">Total Sales:</span>
+                34.53 ETH
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-12 col-sm-3 d-none d-sm-block">
+        <a class="text-decoration-none" href="artist-page.html">
+          <div class="top-creators-card position-relative scale-95">
+            <div class="score-div">12</div>
+            <img src="/dist/images/profilFoto/japonVisneAgaci.png" alt="">
+            <div class="top-creators-card-text">
+              <h5 class="text-start text-sm-center main-font text-white m-0">Ghiblier</h5>
+              <p class="m-0 text-white secondary-font">
+                <span class="text-caption main-font">Total Sales:</span>
+                34.53 ETH
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <a class="text-decoration-none d-block d-sm-none mt-5" href="rankings.html">  
+      <div class="outline-main">
+        <img src="/dist/icons/RocketLaunchPurple.svg" alt="">
+        View Rankings
+      </div>
+    </a> 
+  </div>
+</section>
+<section class="main-bg my-container-height">
+  <div class="container container-sm p-0">
+    <h3 class="fellow-title">Browse Categories</h3>
+    <div class="row gy-4 mt-3 mt-sm-5">
+      <div class="col-6 col-sm-3">
+        <a class="text-decoration-none " href="market-place.html">
+          <div class="categories-card-item scale-95">
+            <div class="categories-card-image position-relative overflow-hidden">
+              <img class="w-100" src="/dist/images/KategoriFoto/maviBalina.png" alt="">
+              <img class="svg-overlay" src="/dist/icons/PaintBrush.svg" alt="SVG">
+            </div>
+            <div class="categories-card-text">
+              <p class="main-text m-0">Art</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-6 col-sm-3">
+        <a class="text-decoration-none " href="market-place.html">
+          <div class="categories-card-item scale-95">
+            <div class="categories-card-image position-relative overflow-hidden">
+              <img class="w-100" src="/dist/images/KategoriFoto/maymun.png" alt="">
+              <img class="svg-overlay" src="/dist/icons/Swatches.svg" alt="SVG">
+            </div>
+            <div class="categories-card-text">
+              <p class="main-text m-0">Collectibles</p>
+            </div>
+          </div>
+        </a>
+        </div>
+      <div class="col-6 col-sm-3">
+        <a class="text-decoration-none " href="market-place.html">
+          <div class="categories-card-item scale-95">
+            <div class="categories-card-image position-relative overflow-hidden">
+              <img class="w-100" src="/dist/images/KategoriFoto/keman.png" alt="">
+              <img class="svg-overlay" src="/dist/icons/MusicNotes.svg" alt="SVG">
+            </div>
+            <div class="categories-card-text">
+              <p class="main-text m-0">Music</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-6 col-sm-3">
+        <a class="text-decoration-none " href="market-place.html">
+          <div class="categories-card-item scale-95">
+            <div class="categories-card-image position-relative overflow-hidden">
+              <img class="w-100" src="/dist/images/KategoriFoto/dede.png" alt="">
+              <img class="svg-overlay" src="/dist/icons/Camera.svg" alt="SVG">
+            </div>
+            <div class="categories-card-text">
+              <p class="main-text m-0">Photography</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-6 col-sm-3">
+        <a class="text-decoration-none " href="market-place.html">
+          <div class="categories-card-item scale-95">
+            <div class="categories-card-image position-relative overflow-hidden">
+              <img class="w-100" src="/dist/images/KategoriFoto/tarladaCocuk.png" alt="">
+              <img class="svg-overlay" src="/dist/icons/VideoCamera.svg" alt="SVG">
+            </div>
+            <div class="categories-card-text">
+              <p class="main-text m-0">Video</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-6 col-sm-3">
+        <a class="text-decoration-none " href="market-place.html">
+          <div class="categories-card-item scale-95">
+            <div class="categories-card-image position-relative overflow-hidden">
+              <img class="w-100" src="/dist/images/KategoriFoto/anahtar.png" alt="">
+              <img class="svg-overlay" src="/dist/icons/MagicWand.svg" alt="SVG">
+            </div>
+            <div class="categories-card-text">
+              <p class="main-text m-0">Utility</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-6 col-sm-3">
+        <a class="text-decoration-none " href="market-place.html">
+          <div class="categories-card-item scale-95">
+            <div class="categories-card-image position-relative overflow-hidden">
+              <img class="w-100" src="/dist/images/KategoriFoto/basketbolTopu.png" alt="">
+              <img class="svg-overlay" src="/dist/icons/Basketball.svg" alt="SVG">
+            </div>
+            <div class="categories-card-text">
+              <p class="main-text pb-sm-0 pb-4 m-0">Sport</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-6 col-sm-3">
+        <a class="text-decoration-none " href="market-place.html">
+          <div class="categories-card-item scale-95">
+            <div class="categories-card-image position-relative overflow-hidden">
+              <img class="w-100" src="/dist/images/KategoriFoto/cyborgSehir.png" alt="">
+              <img class="svg-overlay" src="/dist/icons/Planet.svg" alt="SVG">
+            </div>
+            <div class="categories-card-text">
+              <p class="main-text m-0">Virtual Worlds</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="main-bg my-container-height">
+  <div class="container container-sm p-0">
+    <div class="top-creators-container d-flex justify-content-between ">
+      <div class="top-creators-text">
+        <h3 class="fellow-title">Discover More Nfts</h3>
+        <p class="fellow-text d-inline">Explore New Trending Nfts</p>
+      </div>
+      <div class="top-creators-button align-self-end ">
+        <a class="text-decoration-none d-none d-sm-block" href="rankings.html">  
+          <div class="outline-main scale-95">
+            <img src="/dist/icons/Eye.svg" alt="">
+            See All
+          </div>
+        </a> 
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-sm-4 mt-4 scale-95">
+        <a class="text-decoration-none" href="artist-page.html">
+          <div class="discover-card d-flex flex-column">
+            <div class="discover-card-image">
+              <img class="w-100" src="/dist/images/discover1.png" alt="">
+            </div>
+            <div class="discover-card-text d-flex flex-column gap-4">
+              <div class="discover-card-profil">
+                <h5 class="main-text">Distant Galaxy</h5>
+              <div class=" gap-2 secondary-text">
+                <img src="/dist/images/profilFoto/amelia.png" alt="">
+                MoonDancer
+              </div>
+            </div>
+            <div class="discover-card-score d-flex justify-content-between">
+              <div class="discover-price d-flex flex-column gap-1 secondary-text">
+                <span class="text-caption secondary-font">Price</span>
+                1.63 ETH
+              </div>
+              <div class="discover-price d-flex flex-column gap-1 secondary-text">
+                <span class="text-end">Highest Bid</span>
+                0.33 wETH
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+      </div>
+      <div class="col-12 col-sm-4 mt-4 scale-95">
+        <a class="text-decoration-none" href="artist-page.html">
+          <div class="discover-card d-flex flex-column">
+            <div class="discover-card-image">
+            <img class="w-100" src="/dist/images/discover2.png" alt="">
+          </div>
+          <div class="discover-card-text d-flex flex-column gap-4">
+            <div class="discover-card-profil">
+              <h5 class="main-text">Life On Edena</h5>
+              <div class=" gap-2 secondary-text">
+                <img src="/dist/images/profilFoto/coolBlackBoy.png"  alt="">
+                NebulaKid
+              </div>
+            </div>
+            <div class="discover-card-score d-flex justify-content-between">
+              <div class="discover-price d-flex flex-column gap-1 secondary-text">
+                <span class="text-caption secondary-font">Price</span>
+                1.63 ETH
+              </div>
+              <div class="discover-price d-flex flex-column gap-1 secondary-text">
+                <span class="text-end">Highest Bid</span>
+                0.33 wETH
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+      </div>
+      <div class="col-12 col-sm-4 mt-4 scale-95">
+        <a class="text-decoration-none" href="artist-page.html">
+          <div class="discover-card d-flex flex-column">
+            <div class="discover-card-image">
+              <img class="w-100" src="/dist/images/discover3.png" alt="">
+            </div>
+            <div class="discover-card-text d-flex flex-column gap-4">
+              <div class="discover-card-profil">
+                <h5 class="main-text">AstroFiction</h5>
+                <div class=" gap-2 secondary-text">
+                  <img src="/dist/images/profilFoto/kadimAgac.png" style="width: 24px; height: 24px;" alt="">
+                  Spaceone
+                </div>
+              </div>
+              <div class="discover-card-score d-flex justify-content-between">
+                <div class="discover-price d-flex flex-column gap-1 secondary-text">
+                  <span class="text-caption secondary-font">Price</span>
+                1.63 ETH
+              </div>
+              <div class="discover-price d-flex flex-column gap-1 secondary-text">
+                <span class="text-end">Highest Bid</span>
+                0.33 wETH
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+      </div>
+    </div>
+    <a class="text-decoration-none d-block d-sm-none mt-5" href="rankings.html">  
+      <div class="outline-main">
+        <img src="/dist/icons/Eye.svg" alt="">
+        See All
+      </div>
+    </a> 
+  </div>
+</section>
+<section class="magic-mushroom position-relative">
+  <div class="big-mushroom-overlay ">
+    <div class="container container-sm p-0">
+      <div class="mushroom-container d-flex flex-wrap flex-sm-nowrap justify-content-sm-between gap-4">
+        <div class="mushroom-left d-flex flex-column align-items-start gap-4">
+          <a class="text-decoration-none text-white" href="artist-page.html">
+            <div class="mushroom-profil d-flex gap-2 align-items-center">
+              <div><img src="/dist/images/profilFoto/suBukucu.png" style="width: 24px; height: 24px;" alt=""></div>
+              <div>Shroomie</div>
+            </div>
+          </a>
+          <div><h3>Magic Mashrooms</h3></div>
+          <a class="text-decoration-none d-none d-sm-block" href="artist-page.html">
+            <div class="mushroom-button d-flex align-items-center gap-2 scale-95">
+              <img src="/dist/icons/Eye.svg" alt="">
+              <div class="main-font main-color fw-semibold  text-dark">See NFT</div>
+            </div>
+          </a>
+        </div>
+        <div class="mushroom-right">
+          <div class="text-white secondary-font fs-6">
+            Auction ends in:
+          </div>
+          <div class="d-flex gap-3">
+            <div>
+              <div class="text-white secondary-font font-38px fw-semibold align-self-stretch">59</div>
+              <div class="text-white secondary-font fs-6">Hours</div>
+            </div>
+            <div class="text-white secondary-font fs-1">:</div>
+            <div>
+              <div class="text-white secondary-font font-38px fw-semibold">59</div>
+              <div class="text-white secondary-font fs-6">Minutes</div>
+            </div>
+            <div class="text-white secondary-font fs-1">:</div>
+            <div>
+              <div class="text-white secondary-font font-38px fw-semibold">59</div>
+              <div class="text-white secondary-font fs-6">Seconds</div>
+            </div>
+          </div>
+        </div>
+        <a class="text-decoration-none d-block d-sm-none w-100 d-flex" href="artist-page.html">
+          <div class="mushroom-button d-flex align-items-center w-100 justify-content-center gap-2 scale-95">
+            <img src="/dist/icons/Eye.svg" alt="">
+            <div class="main-font main-color fw-semibold  text-dark">See NFT</div>
+          </div>
+        </a>
+        </div>
+    </div>
+  </div>
+</section>
+<section class="main-bg my-container-height">
+  <div class="container container-sm p-0 d-flex flex-column gap-5">
+    <div class="top-creators-text">
+      <h3 class="fellow-title">How it works</h3>
+      <p class="fellow-text d-inline">Find out how to get started</p>
+    </div>
+    <div class="row gap-4 gap-sm-0">
+      <div class="col-12 col-sm-4 d-flex">
+        <div class="works-card-item d-flex flex-row flex-sm-column">
+          <div class="works-card-item-img" >
+            <img class="w-100" style="max-width: 220px; min-width: 100px; max-height: 220px; min-height: 100px;" src="/dist/images/wallet.png" alt="">
+          </div>
+          <div class="works-card-item-text text-start text-sm-center">
+            <h3 class="main-text">Setup Your wallet</h3>
+            <p class="m-0">Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-4 d-flex">
+        <div class="works-card-item d-flex flex-row flex-sm-column">
+          <div class="works-card-item-img" >
+            <img class="w-100" style="max-width: 220px; min-width: 100px; max-height: 220px; min-height: 100px;" src="/dist/images/music.png" alt="">
+          </div>
+          <div class="works-card-item-text text-start text-sm-center">
+            <h3 class="main-text">Create Collection</h3>
+            <p class="m-0">Upload your work and setup your collection. Add a description, social links and floor price.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-4 d-flex">
+        <div class="works-card-item d-flex flex-row flex-sm-column">
+          <div class="works-card-item-img" >
+            <img class="w-100" style="max-width: 220px; min-width: 100px; max-height: 220px; min-height: 100px;" src="/dist/images/shopping.png" alt="">
+          </div>
+          <div class="works-card-item-text text-start text-sm-center">
+            <h3 class="main-text">Start Earning</h3>
+            <p class="m-0">Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="main-bg my-container-height">
+  <div class="container container-sm p-0">
+    <div class="astronot-container d-flex flex-column flex-sm-row">
+      <div class="astronot-image ">
+        <img class="" src="/dist/images/astronot.png" alt="">
+      </div>
+      <div class="astronot-email d-flex flex-column gap-4">
+        <div>
+          <h3 class="fellow-title">Join our weekly digest</h3>
+          <p class="homepage-text m-0">Get exclusive promotions & updates straight to your inbox.</p>
+        </div>
+        <div class="astronot-email-container d-flex justify-content-between">
+          <input class="border-0 p-2 p-sm-0" type="text" placeholder="Enter your email here">
+          <div class="button-style scale-95  d-none d-sm-block">
+            <img src="/dist/icons/Mektup.svg" alt="">
+            Subscribe
+          </div>
+        </div>
+        <div class="button-style scale-95 d-block d-sm-none text-center p-2 rounded-5">
+          <img src="/dist/icons/Mektup.svg" alt="">
+          Subscribe
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="secondary-bg footer-height">
+  <div class="container container-sm p-0">
+    <div class="footer-container d-flex flex-wrap justify-content-between gap-4 gap-sm-0">
+      <div class="footer-social-media">
+        <div class="footer-logo">
+          <img src="/dist/images/desktop-logo.png" alt="">
+        </div>
+        <div class="d-inline-block">
+          <p class="footer-text d-inline-block logo-text" style="width: 238px;">NFT marketplace UI created with Anima for Figma.</p>
+        </div>
+        <div>
+          <p class="footer-text">Join our community</p>
+        </div>
+        <div>
+          <a class="text-decoration-none" href="#">
+            <img class="scale-95" src="/dist/icons/DiscordLogo.svg" alt="">
+          </a>
+          <a class="text-decoration-none" href="#">
+            <img class="scale-95" src="/dist/icons/YoutubeLogo.svg" alt="">
+          </a>
+          <a class="text-decoration-none" href="https://twitter.com/_GirisimciZenci">
+            <img class="scale-95" src="/dist/icons/TwitterLogo.svg" alt="">
+          </a>
+          <a class="text-decoration-none" href="https://www.instagram.com/ucar.furkan/">
+            <img class="scale-95" src="/dist/icons/InstagramLogo.svg" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="footer-explore">
+        <div>
+          <h3 class="footer-title">Explore</h3>
+        </div>
+        <div>
+          <ul class="list-unstyled d-flex flex-column">
+            <a class="text-decoration-none" href="market-place.html">
+              <li class="footer-text ">Marketplace</li>
+            </a>
+            <a class="text-decoration-none" href="rankings.html">
+              <li class="footer-text">Rankings</li>
+            </a>
+            <a class="text-decoration-none" href="connect-wallet.html">
+              <li class="footer-text">Connect a wallet</li>
+            </a>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-email">
+        <div>
+          <h3 class="footer-title">Join our weekly digest</h3>
+        </div>
+        <div>
+          <p class="footer-text">Get exclusive promotions & updates straight to your inbox.</p>
+        </div>
+        <div class="astronot-email-container d-flex justify-content-between">
+          <input class="border-0 p-2 p-sm-0" type="text" placeholder="Enter your email here">
+          <div class="button-style scale-95  d-none d-sm-block">
+            <img src="/dist/icons/Mektup.svg" alt="">
+            Subscribe
+          </div>
+        </div>
+        <div class="button-style scale-95 d-block d-sm-none text-center p-2 rounded-5 mt-3">
+          <img src="/dist/icons/Mektup.svg" alt="">
+          Subscribe
+        </div>
+      </div>
+    </div>
+    <hr style="color: #858584;">
+    <p class="main-font" style="color: #ccc; font-size: 12px; user-select: none;">Ⓒ NFT Market. Furkan Uçar</p>
+  </div>
+</footer>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

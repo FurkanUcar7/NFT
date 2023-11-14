@@ -1,0 +1,51 @@
+
+.rankings-titles{
+    border: 2px solid $background-secondary;
+    border-radius: 20px;
+    padding: 12px 20px;
+    .rankings-titles-text{
+        color: var(--caption-label-text, #858584);
+        font-family: $space-mono;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+    }
+}
+
+
+.rankings-box{
+    background-color: $background-secondary;
+    padding: 12px 20px;
+    .rankings-rating{
+        border-radius: 50%;
+        background: $background-main;
+        padding: 5px 10px;
+        font-family: $space-mono;
+        color: $text-caption;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+    }
+    .rankings-profil-name{
+        color: #FFF;
+        font-family: $main-font;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        text-transform: capitalize;
+    }
+    .rankings-value{
+        color: #FFF;
+        font-family: $space-mono;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        width: 140px;
+    }
+}
+

@@ -1,0 +1,524 @@
+@import "variables";
+@import "responsive";
+@import "create-account";
+@import "connect-wallet";
+@import "artist-page";
+@import "market-place";
+@import "rankings";
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+
+
+// ortak kullanılan cssler---------------------
+
+.main-bg{
+    background-color: $background-main;
+}
+
+.main-color{
+    color: $background-main;
+}
+
+.main-font{
+    font-family: $main-font;
+}
+
+.secondary-font{
+    font-family: $space-mono;
+}
+
+.secondary-bg{
+    background-color: $background-secondary;
+}
+
+.secondary-color{
+    color: $background-secondary;
+}
+
+.text-caption{
+    color: $text-caption;
+}
+
+.main-purple{
+    color: $purple-main;
+}
+
+.purple-bg{
+    background-color: $purple-main;
+}
+
+.button-style{
+    background-color: $purple-main;
+    color: #fff;
+    font-family: $main-font;
+    font-weight: 600;
+}
+
+.my-container-height{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.footer-height{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.scale-95{
+    transition: transform 0.3s;
+    &:hover{
+        transform: scale(.95);
+    }
+}
+
+.fellow-title{
+    color: #fff;
+    font-family: $main-font;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+
+.fellow-text{
+    color: #fff;
+    font-family: $main-font;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+    margin-bottom: 60px;
+}
+
+.main-text{
+    color: #fff;
+    font-family: $main-font;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+.secondary-text{
+    color: #fff;
+    font-family: $space-mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.discover-card-text-alternative{
+    background-color: $background-main;
+    padding: 20px 30px 25px 30px;
+    border-radius: 0px 0px 20px 20px; }
+
+// --------------------------------------------
+
+
+// NAV ----------------------------------------
+.nav-container{
+    padding: 0px 38px;
+}
+
+
+
+.nav-button{
+    border-radius: 20px;
+    padding: 16px 30px;
+}
+
+
+
+.nav-container{
+    div{
+        ul{
+            li{
+                padding: 0px 20px;
+                font-family: $main-font;
+                font-weight: 600;
+                transition: transform 0.3s;
+                &:hover{
+                    transform: scale(.95);
+                }
+            }
+        }
+    }
+}
+
+.button-style:hover{
+    color: #fff;
+    background-color: $purple-main;
+}
+
+// --------------------------------------------
+
+
+// homepage giriş bölümü ----------------------
+
+
+.homepage-title{
+    font-family: $main-font;
+    font-size: 67px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.homepage-text{
+    color: #fff;
+    font-family: $main-font;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+
+.homepage-gif{
+    width: 100%;
+}
+
+.get_started_button{
+    border-radius: 20px;
+    padding: 15px 50px;
+    margin: 30px 0px;
+}
+
+.status-title{
+    font-family: $space-mono;
+    color: #fff;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+.status-text{
+    font-family: $main-font;
+    color: #fff;
+    font-size: 23.99px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+
+
+// Trending Collection bölümü -----------------------------
+
+.card-group-text{
+    h5{
+        color: #FFF;
+    font-family: $main-font;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+    }
+}
+
+.card-third-pic-text{
+    height: 100px;
+    color: #fff;
+    font-family: $space-mono;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    text-transform: capitalize;
+    display: flex;
+    padding: 32px 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+
+
+// Top Creators alanı -----------------------------------
+
+.outline-main{
+    display: flex;
+    height: 60px;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 20px;
+    border: 2px solid var(--Call-to-Action, #A259FF);
+    color: #FFF;
+    text-align: center;
+    font-family: $main-font;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.top-creators-card{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: $background-secondary;
+    border-radius: 20px;
+}
+
+.top-creators-card-text{
+    h5{
+        color: #FFF;
+    font-family: $main-font;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+    }
+}
+
+.score-div{
+    position: absolute;
+    left: 20px;
+    top: 18px;
+    background-color: $background-main;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: var(--caption-label-text, #858584);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $space-mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+// Categories alanı ---------------------------------
+
+.categories-card-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0px 0px;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(7.5px);
+    z-index: 1;
+    opacity: 0; 
+    transition: opacity 0.5s; 
+}
+
+.categories-card-item:hover{
+    .categories-card-image::before, .svg-overlay{
+        opacity: 1;
+    }
+}
+
+.svg-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.4s; 
+}
+
+
+.categories-card-text{
+    padding: 20px 30px 25px 30px;
+    background-color: $background-secondary;
+    border-radius: 0px 0px 20px 20px;
+    align-self: stretch;
+}
+
+
+// Discover alanı ------------------------------------------
+
+.discover-card-text{
+    background-color: $background-secondary;
+    padding: 20px 30px 25px 30px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.discover-card-score{
+    .discover-price{
+        span{
+            color: #858584;
+            font-family: $space-mono;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 110%;
+        }
+    }
+}
+
+// Büyük mantar alanı ----------------------------------------
+
+.magic-mushroom{
+    background-image: url(/dist/images/big-Mushroom.png);
+    width: 100%;
+    height: 640px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.big-mushroom-overlay{
+    background: linear-gradient(180deg, rgba(162.00005114078522, 89.00000989437103, 255, 0) 0%, rgb(162.00000554323196, 89.00000229477882, 255) 100%);
+    // padding: 120px 195px 40px 195px;;
+    padding: 360px 195px 60px 195px;
+    height: 100%;
+}
+
+.mushroom-profil{
+    padding: 8px 25px;
+    background-color: $background-secondary;
+    border-radius: 20px;
+}
+
+.mushroom-left{
+    div{
+        h3{
+            font-size: 51px;
+            color: #fff;
+            font-weight: bold;
+        }
+    }
+}
+
+.mushroom-button{
+    background-color: #fff;
+    padding: 16px 47px;
+    border-radius: 20px;
+}
+
+.mushroom-right{
+    backdrop-filter: blur(10px) brightness(100%);
+    background-color: #3b3b3b80;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+    position: relative;
+    align-self: flex-end;
+}
+
+.font-38px{
+    font-size: 38px;
+}
+
+// How It Works alanı -------------------------------------
+
+.works-card-item{
+    display: flex;
+    width: 330px;
+    padding: 20px 30px 30px 30px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    background: $background-secondary;
+}
+
+.works-card-item-text{
+    color: #fff;
+    text-align: center;
+    font-family: $main-font;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+// Astronot alanı -----------------------------------
+
+.astronot-container{
+    display: flex;
+    padding: 60px;
+    align-items: center;
+    gap: 80px;
+    border-radius: 20px;
+    background: #3B3B3B;
+}
+
+.astronot-email-container{
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 20px;
+    background: #fff;
+}
+
+
+.astronot-email-container{
+    .button-style{
+        display: flex;
+        padding: 15px 50px;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 12px;
+        border-radius: 20px;
+    }
+}
+
+
+// Footer alanı -------------------------------------------
+
+.footer-text{
+    color: #CCC;
+    font-family: $main-font;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.footer-title{
+    color: #FFF;
+    font-family: $space-mono;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+
+.footer-container{
+    .footer-social-media{
+        .footer-logo{
+            margin-bottom: 30px;
+        }
+    }
+    .footer-explore{
+        .footer-title{
+            margin-bottom: 25px;
+        }
+            ul{
+                gap: 20px;
+            }
+    }
+    .footer-email{
+        .footer-title{
+            margin-bottom: 25px;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.create-account-text{
+    h2{
+        color: #FFF;
+        font-family: $main-font;
+        font-size: 51px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 110%;
+        text-transform: capitalize;
+    }
+    p{
+        color: #fff;
+        font-family: $main-font;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        text-transform: capitalize;
+    }
+}

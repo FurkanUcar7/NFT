@@ -1,0 +1,16 @@
+.wallet-item{
+    border-radius: 20px;
+    border: 1px solid $purple-main;
+    background: $background-secondary;
+    padding: 20px 20px 20px 40px;
+
+    p{
+        color:#FFF;
+font-family: $main-font;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%;
+text-transform: capitalize;
+    }
+}
