@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap");
 @media (max-width: 576px) {
+  .container-sm{
+    max-width: 315px !important;
+  }
   .my-container-height {
     padding-top: 40px !important;
     padding-bottom: 40px !important; }
@@ -121,6 +124,12 @@
     font-size: 12px !important;
     width: initial !important; } }
 
+    @media (min-width: 577px){
+      .container{
+        max-width: 1050px !important;
+      }
+    }
+    
 .create-account-text h2 {
   color: #FFF;
   font-family: "Work Sans", sans-serif;
